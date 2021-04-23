@@ -1,0 +1,19 @@
+body
+{
+    font-family: "Arial", sans-serif;
+    color: #333444;
+    background-color: #eee;
+    margin: 40px auto;
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 750px;
+}
+a
+{
+    color: #333555;
+}
+h1, h2, h3
+{
+    line-height: 1.4;
+}
