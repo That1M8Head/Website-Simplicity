@@ -1,19 +1,40 @@
-body
-{
-    font-family: "Arial", sans-serif;
-    color: #333444;
-    background-color: #eee;
-    margin: 40px auto;
-    padding: 0 10px;
-    font-size: 16px;
-    line-height: 1.6;
-    max-width: 750px;
-}
-a
-{
-    color: #333555;
-}
+
 h1, h2, h3
 {
     line-height: 1.4;
+}
+@media (prefers-color-scheme: light) {
+    body
+    {
+        font-family: "Arial", sans-serif;
+        color: #333444;
+        background-color: #eee;
+        margin: 40px auto;
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 750px;
+    }
+    a
+    {
+        color: #333555;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body
+    {
+        font-family: "Arial", sans-serif;
+        color: #eee;
+        background-color: #333444;
+        margin: 40px auto;
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 750px;
+    }
+    a
+    {
+        color: #eeefff;
+    }
 }
