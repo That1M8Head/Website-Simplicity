@@ -1,4 +1,4 @@
-
+/* simple.css - tiny CSS document that formats a website to look good but still simplistic */
 h1, h2, h3
 {
     line-height: 1.4;
@@ -20,7 +20,6 @@ h1, h2, h3
         color: #333555;
     }
 }
-
 @media (prefers-color-scheme: dark) {
     body
     {
